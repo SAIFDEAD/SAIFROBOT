@@ -1,15 +1,15 @@
 {
-      "name": "Fallen Robot",
+      "name": "𝙳𝙴𝙰𝙳 𝚇 𝚁𝙾𝙱𝙾𝚃",
       "description": "Telegram Group Management Bot.",
-      "logo": "https://te.legra.ph/file/72e135da30a1a349f2844.jpg",
+      "logo": "https://telegra.ph/file/d116dab334e2c9e23b390.jpg",
       "keywords": [
          "telegram",
          "modular",
          "group",
          "manager",
-         "Fallen"
+         "Dead",
       ],   
-   "repository": "https://github.com/AnonymousX1025/FallenRobot",
+   "repository": "https://github.com/SAIFDEAD/SAIFROBOT",
    "stack": "heroku-22",
    "addons": [
       {
@@ -61,17 +61,17 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1356469075"
+         "value": "6585111267"
       },
       "START_IMG": {
          "description": "Telegraph link of the image which will be shown at start command.",
          "required": true,
-         "value": ""
+         "value": "https://telegra.ph/file/731907b970e044bfab19d.jpg"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Fallen Support than consider you made an enemy.",
          "required": true,
-         "value": "DevilsHeavenMF"
+         "value": "Dead_Groupchat"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
