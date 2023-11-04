@@ -378,8 +378,8 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="sᴏᴜʀᴄᴇ",
-                            "https://graph.org/file/ce82532492d587b3bcd00.mp4",
+                            text="ᴅᴇᴠᴇʟᴏᴘᴇʀ",
+                            url=f"https://t.me/Saif_Dictator",
                         ),
                     ],
                     [
