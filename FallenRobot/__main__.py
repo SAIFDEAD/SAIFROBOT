@@ -97,7 +97,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"https://t.me/DRDIC1"),
-        InlineKeyboardButton(text="☁️ sᴏᴜʀᴄᴇ ☁️", "https://graph.org/file/ce82532492d587b3bcd00.mp4"),
+        InlineKeyboardButton(text="☁️ sᴏᴜʀᴄᴇ ☁️", callback_data="source_"),
     ],
 ]
 
