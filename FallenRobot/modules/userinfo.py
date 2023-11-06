@@ -304,7 +304,7 @@ def info(update: Update, context: CallbackContext):
                                 "𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/Dead_SupportChat"
                             ),
                             InlineKeyboardButton(
-                                "𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁", url="https://t.me/Saif_Dictator"
+                                "ᴏᴡɴᴇʀ", url="https://t.me/DRDIC1"
                             ),
                         ],
                     ]
