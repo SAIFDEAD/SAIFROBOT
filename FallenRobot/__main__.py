@@ -96,8 +96,8 @@ buttons = [
         InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"https://t.me/DRDIC1"),
-        InlineKeyboardButton(text="♨️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♨️", callback_data="source_"),
+        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="⚔️ ᴄʜᴀɴɴᴇʟ ⚔️", url="https://t.me/Dead_SupportChat"),
     ],
 ]
 
@@ -379,7 +379,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="ᴅᴇᴠᴇʟᴏᴘᴇʀ",
-                            url=f"https://t.me/Saif_Dictator",
+                            url="https://t.me/SAIF_DICTATOR",
                         ),
                     ],
                     [
@@ -400,16 +400,16 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Dead_SupportChat"
+                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/Dead_SupportChat"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"https://t.me/SAIF_DICTATOR"
                         ),
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴘᴇʀ",
-                            url="https://t.me/Saif_Dictator",
+                            text="ᴏᴡɴᴇʀ",
+                            url="https://t.me/DRDIC1",
                         ),
                     ],
                     [
@@ -433,7 +433,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=f"https://t.me/SAIF_DICTATOR"
+            text=f"""
 *ʜᴇʏ,
  ᴛʜɪs ɪs {BOT_NAME},
 ᴀɴ ᴏᴩᴇɴ sᴏᴜʀᴄᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.*
@@ -444,10 +444,11 @@ def Source_about_callback(update: Update, context: CallbackContext):
 ᴀɴᴅ ᴜsɪɴɢ [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) ᴀɴᴅ [ᴍᴏɴɢᴏ](https://cloud.mongodb.com) ᴀs ᴅᴀᴛᴀʙᴀsᴇ.
 
 
-*ʜᴇʀᴇ ɪs ᴍʏ ᴍᴀᴋᴇʀ :* [ᴅᴇᴀᴅ](https://t.me/DRDIC1)
+*ʜᴇʀᴇ ɪs ᴍʏ ᴏᴡɴᴇʀ :* [ᴅᴇᴀᴅ](https://t.me/DRDIC1)
 
 
-{BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/SAIFDEAD/SAIFROBOT/blob/master/LICENSE). 2022 - 2023 | [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_CHAT}), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
+{BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/SAIFDEAD/SAIFROBOT/blob/master/LICENSE).
+© 2022 - 2023 | [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_CHAT}), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -714,15 +715,14 @@ def main():
                 chat_id=f"@{SUPPORT_CHAT}",
                 photo=START_IMG,
                 caption=f"""
-ㅤ {BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
+ㅤ🥀 {BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
 
-•❅────✧❅✦❅✧────❅•
-ㅤ✫ **ᴍʏ ᴏᴡɴᴇʀ:**"[ᴅᴇᴀᴅ](https://t.me/DRDIC1)"
-★ **ᴘʏᴛʜᴏɴ :** `{y()}`
+┏•❅────✧❅✦❅✧────❅•┓
+ㅤ★ **ᴘʏᴛʜᴏɴ :** `"[ᴅᴇᴀᴅ](https://t.me/DRDIC1)"`
 ㅤ★ **ʟɪʙʀᴀʀʏ :** `{telever}`
 ㅤ★ **ᴛᴇʟᴇᴛʜᴏɴ :** `{tlhver}`
 ㅤ★ **ᴩʏʀᴏɢʀᴀᴍ :** `{pyrover}`
-•❅────✧❅✦❅✧────❅•""",
+┗•❅────✧❅✦❅✧────❅•┛""",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
