@@ -130,7 +130,7 @@ def chatbot(update: Update, context: CallbackContext):
             return
         bot.send_chat_action(chat_id, action="ᴛʏᴘɪɴɢ ʙᴀʙʏ")
         request = requests.get(
-            f"6380230110-fallen-zmiy44yimz/{BOT_NAME}/Anonymous/message={message.text}"
+            f"https://fallenxbot.vercel.app/api/apikey=6380230110-fallen-zmiy44yimz/{BOT_NAME}/Anonymous/message={message.text}"
         )
         results = json.loads(request.text)
         sleep(0.5)
