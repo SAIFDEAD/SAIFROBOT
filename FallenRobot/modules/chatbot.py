@@ -128,7 +128,7 @@ def chatbot(update: Update, context: CallbackContext):
     if message.text and not message.document:
         if not fallen_message(context, message):
             return
-        bot.send_chat_action(chat_id, action="ᴛʏᴘɪɴɢ ʙᴀʙʏ")
+        bot.send_chat_action(chat_id, action="typing")
         request = requests.get(
             f"https://fallenxbot.vercel.app/api/apikey=6380230110-fallen-zmiy44yimz/{BOT_NAME}/Anonymous/message={message.text}"
         )
