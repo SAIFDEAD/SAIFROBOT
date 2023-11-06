@@ -444,7 +444,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
 ᴀɴᴅ ᴜsɪɴɢ [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) ᴀɴᴅ [ᴍᴏɴɢᴏ](https://cloud.mongodb.com) ᴀs ᴅᴀᴛᴀʙᴀsᴇ.
 
 
-*ʜᴇʀᴇ ɪs ᴍʏ ᴏᴡɴᴇʀ :* [ᴅᴇᴀᴅ](https://t.me/DRDIC1)
+*ʜᴇʀᴇ ɪs ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :* [ᴅᴇᴀᴅ](https://t.me/DRDIC1)
 
 
 {BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/SAIFDEAD/SAIFROBOT/blob/master/LICENSE).
@@ -718,7 +718,7 @@ def main():
 ㅤ🥀 {BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
 
 ┏•❅────✧❅✦❅✧────❅•┓
-ㅤ★ **ᴘʏᴛʜᴏɴ :** `"[ᴅᴇᴀᴅ](https://t.me/DRDIC1)"`
+ㅤ★ **ᴘʏᴛʜᴏɴ :** "[ᴅᴇᴀᴅ](https://t.me/DRDIC1)"
 ㅤ★ **ʟɪʙʀᴀʀʏ :** `{telever}`
 ㅤ★ **ᴛᴇʟᴇᴛʜᴏɴ :** `{tlhver}`
 ㅤ★ **ᴩʏʀᴏɢʀᴀᴍ :** `{pyrover}`
