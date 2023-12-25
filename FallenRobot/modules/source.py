@@ -17,7 +17,7 @@ async def repo(_, message: Message):
 
 ɪ ᴀᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** "[𝙳𝙴𝙰𝙳](https://t.me/DRDIC1)"
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** "[𝗦𝗔𝗜𝗙](https://t.me/SAIF_DICTATOR)"
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
@@ -26,10 +26,10 @@ async def repo(_, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER_ID),
+                    InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
                     InlineKeyboardButton(
-                        "sᴏᴜʀᴄᴇ",
-                        "https://graph.org/file/ce82532492d587b3bcd00.mp4",
+                        "sᴛᴜᴅʏ",
+                        "https://t.me/DE1DAIBOT",
                     ),
                 ]
             ]
