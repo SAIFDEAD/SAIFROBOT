@@ -301,10 +301,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/Dead_SupportChat"
+                                "𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/SAIFALLBOT"
                             ),
                             InlineKeyboardButton(
-                                "ᴏᴡɴᴇʀ", url="https://t.me/DRDIC1"
+                                "ᴏᴡɴᴇʀ", url="https://t.me/@SAI_INNOCENT"
                             ),
                         ],
                     ]
