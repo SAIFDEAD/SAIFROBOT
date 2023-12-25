@@ -59,7 +59,7 @@ def _calc_emoji_offset(to_calc) -> int:
     # Get all emoji in text.
     emoticons = get_emoji_regexp().finditer(to_calc)
     # Check the utf16 length of the emoji to determine the offset it caused.
-    # Normal, 1 character emoji don't affect; hence sub 1.
+    # Normal, 1 character emoji don not affect; hence sub 1.
     # special, eg with two emoji characters (eg face, and skin col) will have length 2, so by subbing one we
     # know we'll get one extra offset,
     return sum(len(e.group(0).encode("utf-16-le")) // 2 - 1 for e in emoticons)
