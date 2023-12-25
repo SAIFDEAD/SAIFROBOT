@@ -1,7 +1,7 @@
 class Fonts:
     def typewriter(text):
         style = {
-            "a": "𝚊",
+            "a": "a",
             "b": "𝚋",
             "c": "𝚌",
             "d": "𝚍",
