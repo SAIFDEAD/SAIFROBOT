@@ -24,4 +24,4 @@ def infinite_loop_check(regex_string):
     return False
 
 
-#
+#SAIFDEAD
