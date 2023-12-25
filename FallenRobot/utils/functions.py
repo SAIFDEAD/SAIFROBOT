@@ -8,4 +8,4 @@ async def make_carbon(code):
     async with ClientSession().post(url, json={"code": code}) as resp:
         image = BytesIO(await resp.read())
     image.name = "carbon.png"
-    return imageh
+    return image
