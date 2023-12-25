@@ -30,6 +30,6 @@ async def save_couple(chat_id: int, date: str, couple: dict):
     lovers[date] = couple
     await coupledb.update_one(
         {"chat_id": chat_id},
-        {"$set": {"couple": lovers}},
+        {"$set": {"couple": blovers}},
         upsert=True,
     )
