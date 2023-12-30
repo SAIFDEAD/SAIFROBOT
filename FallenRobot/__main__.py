@@ -718,7 +718,7 @@ def main():
 ㅤ🥀 {BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
 
 ┏•❅────✧❅✦❅✧────❅•┓
-★ **ᴏᴡɴᴇʀ :** [sᴀɪғ](https://t.me/SAIF_DICATOR)
+★    **ᴏᴡɴᴇʀ :** [sᴀɪғ](https://t.me/SAIF_DICTATOR)
 ㅤ★ **ᴘʏᴛʜᴏɴ :** `{y()}`
 ㅤ★ **ʟɪʙʀᴀʀʏ :** `{telever}`
 ㅤ★ **ᴛᴇʟᴇᴛʜᴏɴ :** `{tlhver}`
